@@ -3,7 +3,7 @@
     border: solid red 5px;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937 ;
+    background-color: #1f2937;
 }
 
  .links li {
@@ -22,5 +22,11 @@
     font-weight: bold;
 
 
+}
+
+.hero {
+    background-color: #1f2937;
+    display:flex;
+    border: solid red 5px;
 }
 

@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
+    margin-bottom: 0px;
 }
 
  .links li {
@@ -26,7 +27,35 @@
 
 .hero {
     background-color: #1f2937;
-    display:flex;
-    border: solid red 5px;
+    padding: 80px;
+    
+}
+
+.hero p {
+    max-width: 400px;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin-left: 140px;
+}
+
+.hero h1 {
+    max-width: 400px;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    margin-left:140px;
+}
+
+.hero button {
+    margin-left: 140px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border:none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    padding-inline: 25px;
+    border-radius: 8px;
 }
 
